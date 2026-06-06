@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .scrollbar-hide {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+	.scrollbar-hide::-webkit-scrollbar {
+		display: none; /* Safari and Chrome */
+	}
+
+}
+
+/* Publication overlap state: when a card is stacked/overlapping we make its inner background darker
+	 for a clear, professional look and ensure text remains readable */
+.publication_inner.overlap {
+	background-color: rgba(0,0,0,0.95) !important;
+	color: #fff !important;
+}
+
+.publication_inner.overlap .publications-title,
+.publication_inner.overlap h3,
+.publication_inner.overlap p,
+.publication_inner.overlap .text-sm,
+.publication_inner.overlap span {
+	color: #fff !important;
+}
