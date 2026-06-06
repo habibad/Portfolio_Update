@@ -2,11 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Zap, Mail, Code, Award, Layers, Download } from 'lucide-react';
 import gsap from 'gsap';
 import Modal from '../modal/Modal';
+import profileImg from '../../assets/profile.png';
 
-// Profile image - base64 encoded for portability
-// In your actual project, replace this import with:
-// import profileImg from '../../assets/profile.png';
-// and use src={profileImg} on the <img> tag.
+// Profile image imported through Vite asset handling
 
 const Hero = ({ scrollToSection, darkMode }) => {
   const [showPdfModal, setShowPdfModal] = useState(false);
@@ -194,7 +192,7 @@ const Hero = ({ scrollToSection, darkMode }) => {
                 {/* Profile image container */}
                 <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
                   <img
-                    src="/src/assets/profile.png"
+                    src={profileImg}
                     alt="Md Anikur Rahaman"
                     className="w-full h-full object-cover object-top"
                     onError={(e) => {
