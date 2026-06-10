@@ -1,5 +1,22 @@
 export const projects = [
   {
+  title: "🎬 BlackTree.TV — Premium Streaming Platform",
+  subtitle: "Full-Stack Web Application",
+  description: "A full-stack premium movie streaming platform featuring live video streaming, real-time chat, actor profiles, interview sections, and a complete authentication system with OAuth support.",
+  technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "Vite"],
+  features: [
+    "🎥 Live YouTube-powered video player with caption & cast support",
+    "💬 Real-time live chat sidebar with moderation system",
+    "🔐 Full auth system: credentials, Google & Facebook OAuth",
+    "🎭 Actor profiles, filmography & exclusive interview pages",
+    "🎞️ Movie catalog with filters, A–Z browse & pagination"
+  ],
+  gradient: "from-red-600 via-red-800 to-black",
+  icon: "Film",
+  github_link: "https://github.com/habibad/Movie-Streaming-Website",
+  live_link: "https://movie-streaming-website-git-main-habibads-projects.vercel.app/"
+},
+  {
     title: "🛒 Online Shop Recommendation System",
     subtitle: "Thesis Project",
     description: "Machine learning-based web application that recommends the best shop for specific products by analyzing user reviews and prices.",
