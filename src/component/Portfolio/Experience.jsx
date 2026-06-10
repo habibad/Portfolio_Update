@@ -3,8 +3,8 @@ import React from 'react';
 const Experience = ({ darkMode, scrollY }) => {
   const experiences = [
     {
-      role: "🚀 WordPress Plugin & Web Developer",
-      company: "Sparktech Agency, bdCalling IT",
+      role: "🚀 Full-Stack Web Developer",
+      company: "Sparktech Agency, Betopia Group",
       period: "Jan 2025 – Present",
       type: "Current Role",
       achievements: [
