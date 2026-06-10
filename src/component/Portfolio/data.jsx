@@ -16,6 +16,23 @@ export const projects = [
   github_link: "https://github.com/habibad/Movie-Streaming-Website",
   live_link: "https://movie-streaming-website-git-main-habibads-projects.vercel.app/"
 },
+{
+  title: "⚔️ Age of Sosaria — UO Shard Website",
+  subtitle: "Client Project / Game Community Website",
+  description: "A medieval-themed multi-page website for a custom Ultima Online private server, featuring animated page transitions, GSAP scroll animations, game download system, community rules, and PayPal donation integration.",
+  technologies: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "GSAP", "ScrollTrigger"],
+  features: [
+    "🎮 Animated GSAP intro loader with 3D flip card effect",
+    "📜 Scroll-triggered section animations across all pages",
+    "⬇️ Game client download system with installer & patch files",
+    "💰 PayPal donation integration for server support",
+    "📱 Responsive mobile navbar with animated drawer menu"
+  ],
+  gradient: "from-yellow-800 via-amber-700 to-stone-900",
+  icon: "Sword",
+  github_link: "https://github.com/habibad/age-of-sosaria",
+  live_link: "https://ageofsosaria.vercel.app/"
+},
   {
     title: "🛒 Online Shop Recommendation System",
     subtitle: "Thesis Project",
